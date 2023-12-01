@@ -7,7 +7,8 @@ Ce programme simple en C permet à l'utilisateur de saisir une phrase et compte 
 1. **Compiler le programme :** Assurez-vous d'avoir un compilateur C installé sur votre système. Vous pouvez utiliser gcc avec la commande suivante :
 
     ```bash
-    gcc compteur_voyelles.c -o compteur_voyelles
+    cd src
+    gcc main.c -o compteur_voyelles
     ```
 
 2. **Exécuter le programme :** Après la compilation, exécutez le programme en tapant la commande suivante :
