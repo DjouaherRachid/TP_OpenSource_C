@@ -17,9 +17,9 @@ jobs:
           ls ${{ github.workspace }}
       - name: Compile and run main.c
         run: |
-          cd ../../tests  
-          gcc -o test test.c
-          ./test
+          cd ../../src 
+          gcc -o main main.c
+          ./main
       - run: echo "🍏 This job's status is ${{ job.status }}."
 
 
