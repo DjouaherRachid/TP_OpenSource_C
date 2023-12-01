@@ -434,8 +434,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "C:/Users/HP/CLionProjects/Open_Source/cmake-build-debug",
-		"source" : "C:/Users/HP/CLionProjects/Open_Source"
+		"build" : "C:/ESGI/Open_Source_C/src/cmake-build-debug",
+		"source" : "C:/ESGI/Open_Source_C/src"
 	},
 	"version" : 
 	{

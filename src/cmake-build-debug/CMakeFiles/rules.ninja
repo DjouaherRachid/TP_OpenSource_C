@@ -42,7 +42,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = "C:\Program Files\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\Users\HP\CLionProjects\Open_Source -BC:\Users\HP\CLionProjects\Open_Source\cmake-build-debug
+  command = "C:\Program Files\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\ESGI\Open_Source_C\src -BC:\ESGI\Open_Source_C\src\cmake-build-debug
   description = Re-running CMake...
   generator = 1
 

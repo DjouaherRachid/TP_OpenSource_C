@@ -5,6 +5,7 @@ int main() {
     char phrase[100];
     int voyelles = 0;
 
+    // on demande à l'utilisateur d'entrer une phrase
     printf("Entrez une phrase : ");
     fgets(phrase, sizeof(phrase), stdin);
 
@@ -16,6 +17,7 @@ int main() {
         }
     }
 
+    //On affiche le nombre de voyelles dans la phrase
     printf("Le nombre de voyelles dans la phrase est : %d\n", voyelles);
 
     return 0;
