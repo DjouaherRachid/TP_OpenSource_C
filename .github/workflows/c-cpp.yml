@@ -15,11 +15,6 @@ jobs:
       - name: List files in the repository
         run: |
           ls ${{ github.workspace }}
-      - name: Compile and run main.c
-        run: |
-          cd ../../src 
-          gcc -o main main.c
-          ./main
       - run: echo "🍏 This job's status is ${{ job.status }}."
 
 
