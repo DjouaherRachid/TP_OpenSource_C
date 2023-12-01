@@ -15,4 +15,11 @@ jobs:
       - name: List files in the repository
         run: |
           ls ${{ github.workspace }}
+      - name: Compile and run main.c
+        run: |
+        cd ../../tests  # Accéder au dossier src
+          gcc -o test test.c
+          ./test
       - run: echo "🍏 This job's status is ${{ job.status }}."
+
+
